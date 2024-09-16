@@ -48,13 +48,10 @@ save-el{
     text-shadow: 0 0 6px black;
 }
 
-@font-face{
-    font-family: 'Holla';
-    src: url("HollaHearthDemoRegular.ttf");
-}
 #footer-paragraph{
-    font-family:Holla;
+    font-family:satisfy,cursive;
     font-size: 30px;
+    font-weight:400;
     margin-top:50px;
     margin-bottom:0px;
     text-shadow: 0 0 2px white;
