@@ -1,0 +1,61 @@
+
+body {
+    background-image: url("habits.jpg");
+    background-size: cover;
+    font-family: verdana, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 2px whitesmoke;
+
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 0 0 2px whitesmoke;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+#retry-btn{
+    background:blue;
+}
+
+save-el{
+    text-shadow: 0 0 6px black;
+}
+
+@font-face{
+    font-family: 'Holla';
+    src: url("HollaHearthDemoRegular.ttf");
+}
+#footer-paragraph{
+    font-family:Holla;
+    font-size: 30px;
+    margin-top:50px;
+    margin-bottom:0px;
+    text-shadow: 0 0 2px white;
+}
